@@ -19,6 +19,7 @@
     </style>
 </head>
 <body>
+
     <input type="file" id="fileInput" accept="image/*">
     <button id="uploadButton">Upload Photo</button>
     <script async src="https://unpkg.com/es-module-shims/dist/es-module-shims.js"></script>
@@ -30,6 +31,7 @@
         }
     }
     </script>
+   
     <script type="module">
         import * as THREE from 'three';
         import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
@@ -138,6 +140,8 @@
         }
 
         animate();
+        
     </script>
+
 </body>
 </html>
